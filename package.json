@@ -6,6 +6,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "jss": "^10.10.0",
+    "jss-plugin-camel-case": "^10.10.0",
     "mathlive": "^0.93.0",
     "next": "latest",
     "react": "18.2.0",
