@@ -83,6 +83,11 @@
   height: 1em;
 }
 
+.modal-content {
+  position: fixed;
+  top: 50vh
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

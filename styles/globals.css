@@ -36,3 +36,15 @@ button {
   padding: 0.5rem 1rem;
   font-weight: bold;
 }
+
+.modal-container {
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+  width: 300px;
+  margin-left: -150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
