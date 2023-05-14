@@ -32,6 +32,7 @@ const MathliveTestPage = () => {
       <textarea onChange={(e) => setLatex(e.target.value)}/>
       <div>This value comes from MathEditor onChange event:</div>
       <div>{value}</div>
+      <div>This value comes from textarea:</div>
       <div>{latex}</div>
       <MathEditor value={latex} onChange={setValue} />
       <div className='test-div'>
